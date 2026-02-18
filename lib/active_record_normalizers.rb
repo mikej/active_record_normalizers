@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "activerecord_normalizers/version"
+require_relative "active_record_normalizers/version"
 
-module ActiverecordNormalizers
+module ActiveRecordNormalizers
   class Error < StandardError; end
   # Your code goes here...
 end

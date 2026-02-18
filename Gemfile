@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in activerecord_normalizers.gemspec
+# Specify your gem's dependencies in active_record_normalizers.gemspec
 gemspec
 
 gem "irb"

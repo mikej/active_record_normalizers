@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/activerecord_normalizers/version"
+require_relative "lib/active_record_normalizers/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "activerecord_normalizers"
-  spec.version = ActiverecordNormalizers::VERSION
+  spec.name = "active_record_normalizers"
+  spec.version = ActiveRecordNormalizers::VERSION
   spec.authors = ["Michael Josephson"]
   spec.email = ["30024+mikej@users.noreply.github.com"]
 
