@@ -10,6 +10,8 @@ module ActiveRecordNormalizers
           .select { |c| c.type.in?([:string, :text]) }
           .reject { |c| c.name == inheritance_column } # avoids STI column
           .map(&:name)
+      rescue ActiveRecord::NoDatabaseError
+        return []
       end
     end
   end
