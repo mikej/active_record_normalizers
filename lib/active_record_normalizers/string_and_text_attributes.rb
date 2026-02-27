@@ -11,7 +11,7 @@ module ActiveRecordNormalizers
           .reject { |c| c.name == inheritance_column } # avoids STI column
           .map(&:name)
       rescue ActiveRecord::NoDatabaseError, ActiveRecord::StatementInvalid, ActiveRecord::ConnectionNotEstablished
-        return []
+        []
       end
     end
   end
